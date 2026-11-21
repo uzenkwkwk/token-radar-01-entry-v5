@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar — pre-token protocols ranked by implied launch value</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="mark">◉</div>
+    <div>
+      <h1>TOKEN RADAR</h1>
+      <p class="sub">Which pre-token protocol is worth farming next — and what to do about it</p>
+    </div>
+  </div>
+  <div class="meta" id="meta"></div>
+</header>
+<nav class="tabs" id="tabs" aria-label="Views">
+  <button data-tab="board" class="on">Board</button>
+  <button data-tab="live">Live tokens</button>
+  <button data-tab="model">How the value is computed</button>
+</nav>
+<main id="app" aria-busy="true"><noscript><div class="empty">This dashboard needs JavaScript: it renders the board from the data written beside it.</div></noscript></main>
+<footer class="foot" id="foot"></footer>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
